@@ -1,0 +1,66 @@
+.sessao-um {
+  background-color: rgb(76, 71, 71);
+  border: solid 2px red;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.sessao-um > div > h1 {
+  color: red;
+  font-size: 50px;
+  font-family: sans-serif;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  text-transform: uppercase;
+}
+
+/* sessao-um > div > h1 */
+/* sessao-um div > form > select > option > a */
+
+.sessao-um > div > form {
+  position: relative;
+  left: 1000px;
+  top: 20px;
+}
+
+.sessao-um > div > form > select {
+  border: solid 2px black;
+  padding: 10px;
+  position: relative;
+  right: 40px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+.botao-cabecalho {
+  position: relative;
+  left: 100px;
+  top: -38px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 17px;
+  background-color: red;
+  font-family: sans-serif;
+  height: 17px;
+  width: 55px;
+  border-radius: 5px;
+}
+
+.botao-cabecalho > a {
+  color: white;
+  text-decoration: none;
+}
+
+.titulos-sessao-um {
+  border: solid 2px red;
+  position: relative;
+  top: 250px;
+  height: 200px;
+  text-align: center;
+  left: 130px;
+}
